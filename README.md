@@ -9,17 +9,17 @@ visual flags, icons
 ---
 
 # Requirement
-Step 1:
+...Step 1:
 	Install `Homebrew`
 ```brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Step 2:
+...Step 2:
 ##### [install any type of hacked fonts](https://www.nerdfonts.com/font-downloads)
 
 
-`optional but STRONGLY recommended`
+...`optional but STRONGLY recommended`
 - #### [alacritty](https://github.com/aharo24/dot-alacritty)
 
 ---
