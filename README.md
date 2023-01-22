@@ -16,7 +16,7 @@ Step 1:
 ```
 
 Step 2:
-	##### [install any type of hacked fonts](https://www.nerdfonts.com/font-downloads)
+##### [install any type of hacked fonts](https://www.nerdfonts.com/font-downloads)
 
 
 `optional but STRONGLY recommended`
