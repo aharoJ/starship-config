@@ -1,9 +1,7 @@
 # dot-starship
-fter hours of research on color theory and what hues stimulate the eyes, I hand-picked icons and spent countless hours designing a prompt that is easy on the eyes
+This is my custom starship.toml config file, designed to enhance the appearance of my command line prompt. I spent hours researching colors that are appealing to programmers and hand-picking the hacked icons to create a visually pleasing and functional prompt. Each module has been carefully configured to suit my needs, and I've added personal touches like custom symbols for success and error messages. I hope you find it useful!
 
-
-
-
+![](z/starship-alacritty.png)
 
 ---
 
@@ -33,7 +31,7 @@ brew install starship
 
 Step 2 
 Copy file:
-my file to  `~/.config/alacritty/alacritty.yml`
+my file to  `~/.config/starship.toml
 
 ---
 
@@ -67,7 +65,7 @@ starship init fish | source
 .
 .
 .
-I am excited to announce that I am in the process of updating my dot-alacritty repository. You can access it on my opensource GitHub page. This update includes improvements to thousands of lines of code across various programming languages and topics such as machine learning. Please bear with me as I work to merge my notes and code. Thank you for your patience!
+I am excited to announce that I am in the process of updating my dot-starship repository. You can access it on my opensource GitHub page. This update includes improvements to thousands of lines of code across various programming languages and topics. Please bear with me as I work to merge my notes and code. Thank you for your patience!
 
 
 ---
