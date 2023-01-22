@@ -1,3 +1,17 @@
+# Ignore the ".obsidian" folder
+/.obsidian
+
+
+# Ignore .DS_Store files (macOs)
+.DS_Store
+
+
+# ignore obsidian ".trash" directory
+/.trash
+
+##########       ############
+
+
 # Prerequisites
 *.d
 
