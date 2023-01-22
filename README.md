@@ -2,7 +2,10 @@
 This is my custom starship.toml config file, designed to enhance the appearance of my command line prompt. I spent hours researching colors that are appealing to programmers and hand-picking the hacked icons to create a visually pleasing and functional prompt. Each module has been carefully configured to suit my needs, and I've added personal touches like custom symbols for success and error messages. I hope you find it useful!
 
 ![](z/starship-alacritty.png)
-
+visual flags, icons
+`[save][->]` green 
+`[re-do][<-]` red 
+![](z/starship-visual-errors.png)
 ---
 
 # Requirement
@@ -31,7 +34,30 @@ brew install starship
 
 Step 2 
 Copy file:
+
 my file to  `~/.config/starship.toml
+
+### [my starship file](https://github.com/aharo24/dot-starship/blob/main/resources/aharo24-starship.toml)
+
+
+Step 3
+configure your own shell
+
+#### [configure your shell](https://starship.rs/guide/#step-2-setup-your-shell-to-use-starship)
+
+#### quick examples 
+ie...(fish)
+Add the following to the end of `~/.config/fish/config.fish`
+``` fish
+starship init fish | source
+```
+
+ie...(zsh)
+Add the following to the end of `~/.zshrc`:
+``` zsh
+eval "$(starship init zsh)"
+```
+
 
 ---
 
@@ -49,13 +75,6 @@ my file to  `~/.config/starship.toml
 - Xonsh
 - Zsh
 
-[configure your own shell](https://starship.rs/guide/#step-2-setup-your-shell-to-use-starship)
-
-ie...(fish)
-Add the following to the end of `~/.config/fish/config.fish`
-``` fish
-starship init fish | source
-```
 ---
 
 
