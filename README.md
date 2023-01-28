@@ -104,8 +104,6 @@ eval "$(starship init zsh)"
 - z
 
 
-
-
 # [Contact Info](https://github.com/aharo24/opensource)
 
 Feel free to follow me on twitter: [@aharo24](https://www.twitter.com/aharo24)!
