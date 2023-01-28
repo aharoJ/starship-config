@@ -5,8 +5,8 @@ This is my custom starship.toml config file, designed to enhance the appearance 
 visual flags, icons
 `[save][->]` green 
 `[re-do][<-]` red 
+
 ![](z/starship-visual-errors.png)
----
 
 # Requirement
 ...Step 1:
