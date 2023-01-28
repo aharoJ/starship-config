@@ -41,14 +41,14 @@ Step 2
 Copy file:
 my file to  `~/.config/starship.toml
 
-#### [my starship file](https://github.com/aharo24/dot-starship/blob/main/resources/aharo24-starship.toml)
+### [my starship file](https://github.com/aharo24/dot-starship/blob/main/resources/aharo24-starship.toml)
 .
 .
 .
 Step 3
 quickly configure your own shell:
 
-#### [configure your shell](https://starship.rs/guide/#step-2-setup-your-shell-to-use-starship)
+### [configure your shell](https://starship.rs/guide/#step-2-setup-your-shell-to-use-starship)
 
 #### quick examples 
 ie...(fish)
