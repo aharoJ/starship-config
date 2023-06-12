@@ -1,9 +1,3 @@
-# Author:
-## Angel Jair Haro
-# Date: 
-## 01-22-2023
-
-
 # Don't print a new line at the start of the prompt
 add_newline = true
 
@@ -13,10 +7,79 @@ format = """
 """
 right_format = """$time"""
 
+        # $time\
+        # $hostname\
+        # $directory\
+        # $aws\
+        # $gcloud\
+        # $singularity\
+        # $kubernetes\
+        # $docker_context\
+        # (↓ Source control - for right side ↓)\
+        # $hg_branch\
+        # $git_branch\
+        # $git_commit\
+        # $git_status\
+        # $git_state\
+        # (↑ Source control - for right side ↑)\
+        # (↓ Toolchain version modules ↓)\
+        # $crystal\
+        # $dart\
+        # $dotnet\
+        # $elixir\
+        # $elm\
+        # $erlang\
+        # $golang\
+        # $java\
+        # $julia\
+        # $nim\
+        # $nodejs\
+        # $ocaml\
+        # $perl\
+        # $php\
+        # $purescript\
+        # $python\
+        # $ruby\
+        # $rust\
+        # $swift\
+        # $terraform\
+        # $zig\
+        # (↑ Toolchain version modules ↑)\
+        # (↓ Package modules ↓)\
+        # $helm\
+        # $package\
+        # $cmake\
+        # $conda\
+        # (↑ Package modules ↑)\
+        # $nix_shell\
+        # $memory_usage\
+        # $env_var\
+        # $custom\
+        # (↑ above input line ↑)\
+        # $line_break\
+        # (↓ on input line ↓)\
+        # $battery\
+        # $shlvl\
+        # $jobs\
+        # $cmd_duration\
+        # $status\
+        # $character"""
+
+
+
+
+
+# # Generic prompt configurations
+# [character]
+# success_symbol = "[  ](fg:#78929b)[  ](fg:#78929b) "
+# error_symbol =   "[  ](fg:#d56767)[  ](fg:#d56767) "
+# style= "italic  fg:#89b482"
 # Generic prompt configurations
+
 [character]
 success_symbol = "[  ](fg:#929b78)[   ](fg:#929b78) "
 error_symbol =   "[  ](fg:#d56767)[  ](fg:#d56767) "
+# 
 
 
 
@@ -47,7 +110,7 @@ empty_symbol = ""
 threshold = 10
 # style = "bold bg:#FF5511 fg:#EEEEEE"
 [[battery.display]]
-threshold = 20
+threshold = 60
 # style = "bg:#FF5511 fg:#111111"
 
 
@@ -241,6 +304,7 @@ trim_at = "."
 [java]
 # disabled = true
 symbol = " "
+format = 'via [${symbol}]($style)'
 # style = "bg:#ED8B00 fg:#111111"
 # format = "[[](bg:#ED8B00 fg:#464347)$symbol$version[](bg:#464347 fg:#ED8B00)]($style)"
 
@@ -308,6 +372,7 @@ symbol = "🐫 "
 [package]
 # disabled = true
 symbol = " "
+format = 'via [${symbol}]($style)'
 # style = "bg:#6F6A70 fg:#EEEEEE"
 display_private = false
 # format = "[[](bg:#6F6A70 fg:#464347)$symbol$version[](bg:#464347 fg:#6F6A70)]($style)"
@@ -332,7 +397,10 @@ symbol = "<=>"
 
 [python]
 disabled = false
-symbol = " "
+pyenv_version_name= false
+python_binary = 'python'
+format = 'via [${symbol}(\($virtualenv\) )]($style)'
+#symbol = " "
 #symbol = "🐍 "
 # style = "bg:#EBD45B fg:#111111"
 #pyenv_version_name = false
@@ -409,80 +477,3 @@ symbol = "［Z］"
 # style = "bg:#F7A41D fg:#EEEEEE"
 # format = "[[](bg:#F7A41D fg:#464347)$symbol$version[](bg:#464347 fg:#F7A41D)]($style)"
 #EOF.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-###############################################################################################
-# You can do this format or not. I dont, but leave this as a playground (expirimental stuff)
-        # $time\
-        # $hostname\
-        # $directory\
-        # $aws\
-        # $gcloud\
-        # $singularity\
-        # $kubernetes\
-        # $docker_context\
-        # (↓ Source control - for right side ↓)\
-        # $hg_branch\
-        # $git_branch\
-        # $git_commit\
-        # $git_status\
-        # $git_state\
-        # (↑ Source control - for right side ↑)\
-        # (↓ Toolchain version modules ↓)\
-        # $crystal\
-        # $dart\
-        # $dotnet\
-        # $elixir\
-        # $elm\
-        # $erlang\
-        # $golang\
-        # $java\
-        # $julia\
-        # $nim\
-        # $nodejs\
-        # $ocaml\
-        # $perl\
-        # $php\
-        # $purescript\
-        # $python\
-        # $ruby\
-        # $rust\
-        # $swift\
-        # $terraform\
-        # $zig\
-        # (↑ Toolchain version modules ↑)\
-        # (↓ Package modules ↓)\
-        # $helm\
-        # $package\
-        # $cmake\
-        # $conda\
-        # (↑ Package modules ↑)\
-        # $nix_shell\
-        # $memory_usage\
-        # $env_var\
-        # $custom\
-        # (↑ above input line ↑)\
-        # $line_break\
-        # (↓ on input line ↓)\
-        # $battery\
-        # $shlvl\
-        # $jobs\
-        # $cmd_duration\
-        # $status\
-        # $character"""
-
-# Only uncomment this block if you know what you are doing. Module order will default to tree. Remove default format from above and place this.
-###############################################################################################
