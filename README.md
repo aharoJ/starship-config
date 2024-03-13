@@ -30,11 +30,12 @@ This is my custom starship.toml config file, designed to enhance the appearance 
 - `[save][->]` green 
 - `[re-do][<-]` red 
 
-
 ![](z/starship_icons.png)
 > new icons | coloschme
 
+
 --- 
+
 
 ## Quick Guide
 ### Step 0: Install `Homebrew`
