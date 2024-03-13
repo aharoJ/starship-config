@@ -25,13 +25,12 @@ This is my custom starship.toml config file, designed to enhance the appearance 
 
 
 > visual flags with icons
-[save][->] green 
-[re-do][<-] red 
+- [save][->] green 
+- [re-do][<-] red 
 ![](z/starship_visual_errors.png)
 
 
 > new icons | coloschme
-
 
 ![](z/starship_icons.png)
 
