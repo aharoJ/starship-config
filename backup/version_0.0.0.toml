@@ -77,7 +77,7 @@ right_format = """$time"""
 # Generic prompt configurations
 
 [character]
-success_symbol = "[  ](fg:#929b78)[  ](fg:#929b78) "
+success_symbol = "[  ](fg:#929b78)[   ](fg:#929b78) "
 error_symbol =   "[  ](fg:#d56767)[  ](fg:#d56767) "
 # 
 
@@ -176,7 +176,7 @@ fish_style_pwd_dir_length = 3
 "~" = ""
 #"~" = "邏"
 # "/" = "  "
-"/" = "  "
+"/" = "  "
 
 [docker_context]
 # disabled = true
@@ -205,6 +205,13 @@ symbol = " " # original
 # style = "bg:#3E92D2 fg:#EEEEEE"
 # format = "[[](bg:#3E92D2 fg:#464347)$symbol$version[](bg:#464347 fg:#3E92D2)]($style)"
 
+[env_var]
+disabled = true
+symbol = " "
+# style = "bg:#6f6a70 fg:#EEEEEE"
+variable = "0"
+default = "zsh"
+# format = "([[](bg:#6f6a70 fg:#464347)$symbol$env_value[](bg:#464347 fg:#6f6a70)]($style))"
 
 [erlang]
 # disabled = true
@@ -259,15 +266,15 @@ disabled = false
 # style = "bg:#E0B25D fg:#000000"
 style= "italic fg:#9e3737"
 stashed = "  ${count}"
-ahead = " ${count}"
-behind = " ${count}"
+ahead = " ﲗ ${count}"
+behind = " ﲔ ${count}"
 diverged = " 李 ${ahead_count} ${behind_count}"
-conflicted = " ${count}"
-deleted = " ${count}"
-renamed = " ${count}"
-modified = " ${count}"
-staged = " ${count}"
-untracked = " ${count}"
+conflicted = "  ${count}"
+deleted = " ﯊ ${count}"
+renamed = " 﫦 ${count}"
+modified = " 凜 ${count}"
+staged = "  ${count}"
+untracked = "  ${count}"
 
 
 
@@ -451,7 +458,7 @@ symbol = "行"
 
 [time]
 disabled = false
-time_format = " %I:%M %P  %B %d, %Y "
+time_format = "  ⏲  %I:%M %P      %B %d, %Y    "
 style = "fg:#9b9578"
 format = '[$time]($style)'
 

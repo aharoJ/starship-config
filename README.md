@@ -27,125 +27,59 @@ visual flags, icons
 
 ![](z/starship-visual-errors.png)
 
-# Requirement
-...Step 1:
+
+# Quick Guide
+### Step 0
 	Install `Homebrew`
 ```brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-...Step 2:
-### [install any type of hacked fonts](https://www.nerdfonts.com/font-downloads)
+> skip if already installed
 
-
-...`optional but STRONGLY recommended`
-- ### [alacritty](https://github.com/aharo24/dot-alacritty)
-- ### [vivaldi](https://github.com/aharo24/dot-vivaldi)
-
-
-
-# Installation with Homebrew
-.
-.
-.
-Step 1
+### Step 1
 Install starship: 
+
+
 ``` brew
 brew install starship
 ```
-.
-.
-.
-Step 2 
-Copy file:
-my file to  `~/.config/starship.toml
 
-### [my starship file](https://github.com/aharo24/dot-starship/blob/main/resources/aharo24-starship.toml)
-.
-.
-.
-Step 3
-quickly configure your own shell:
+### Step 2 
+Copy file into your ~/.config/starship/starship.toml:
 
-### [configure your shell](https://starship.rs/guide/#step-2-setup-your-shell-to-use-starship)
+#### [my starship file](https://github.com/aharoJ/starship-config/blob/main/starship.toml)
 
-#### quick examples 
-ie...(fish)
-Add the following to the end of `~/.config/fish/config.fish`
-``` fish
-starship init fish | source
-```
+### Step 3
+Configure your own shell:
 
-ie...(zsh)
-Add the following to the end of `~/.zshrc`:
-``` zsh
-eval "$(starship init zsh)"
-```
+#### [configure your shell](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 
 
 
-
-### Shell Support
-(I use [fish shell](https://fishshell.com/))
-
-- Bash
-- Cmd
-- Elvish
-- Fish
-- Ion
-- Nushell
-- PowerShell
-- Tcsh
-- Xonsh
-- Zsh
+## Recommended Configurations
+- ### Alacritty
+- ### [install any type of hacked fonts](https://www.nerdfonts.com/font-downloads)
 
 
 
-# [dotfiles](https://github.com/aharo24/opensource/tree/main/dotfiles)
-- Please 
-	- be patient (slowly merging all dotfiles for public use)
+## DEV DOCS 
+## Current Version
+- please integrate **TMUX** to have the full experience
+- script clean up with `active` && `non-active` toml scripts
 
-- [alacritty  ✅](https://github.com/aharo24/dot-alacritty)
-- done
-- exa
-- fish-abbreviation-tips
-- fish
-- flameshot
-- keycastr 
-- obsidian
-- raycast
-- rectangle
-- spunge
-- [starship  ✅](https://github.com/aharo24/dot-starship)
-- sublime
-- tmux
-- [vivaldi  ✅](https://github.com/aharo24/dot-vivaldi)
-- z
+### Version 0.0.1
+- Timer - Colors 
+- All Icons for All Languages
 
 
-# [Contact Info](https://github.com/aharo24/opensource)
-
-Feel free to follow me on twitter: [@aharo24](https://www.twitter.com/aharo24)!
-
-email me with any questions, improvements, bugs, or just to chat.
-io.aharo24@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Version 0.0.2
+- A more sutle and simplistic version to pair with **TMUX**
+- Removed Timer
+- Remove most Icons 
+- Remove most Language Icon Support
+    - If you want to keep do `disabled = false` 
+- Removed Battery
 
 
 
