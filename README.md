@@ -40,7 +40,7 @@ This is my custom starship.toml config file, designed to enhance the appearance 
 --- 
 
 ## Quick Guide
-### Step 0: Install `Homebrew`
+#### Step 0: Install `Homebrew`
 
 
 ```brew
@@ -49,26 +49,26 @@ This is my custom starship.toml config file, designed to enhance the appearance 
 
 > skip if already installed
 
-### Step 1: Install starship
+#### Step 1: Install starship
 
 
 ``` brew
 brew install starship
 ```
 
-### Step 2: Copy File  
+#### Step 2: Copy File  
 > Copy file into your ~/.config/starship/starship.toml:
 
 #### [my starship file](https://github.com/aharoJ/starship-config/blob/main/starship.toml)
 
 
-### Step 3: Configure your own shell
+#### Step 3: Configure your own shell
 [I use Fish Shell](https://fishshell.com)
 
-- #### [configure your shell](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+- ##### [configure your shell](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 
-### Step 4: Install Hacked Nerd Font
-- ### [install hacked fonts](https://www.nerdfonts.com/font-downloads)
+#### Step 4: Install Hacked Nerd Font
+- ##### [install hacked fonts](https://www.nerdfonts.com/font-downloads)
 
 
 ---
