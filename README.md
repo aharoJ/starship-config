@@ -20,6 +20,8 @@
 # dot-starship
 This is my custom starship.toml config file, designed to enhance the appearance of my command line prompt. I spent hours researching colors that are appealing to programmers and hand-picking the hacked icons to create a visually pleasing and functional prompt. Each module has been carefully configured to suit my needs, and I've added personal touches like custom symbols for success and error messages. I hope you find it useful!
 
+---
+
 > OverView 
 ![](z/starship_alacritty.png)
 
@@ -69,7 +71,10 @@ brew install starship
 - ### [install hacked fonts](https://www.nerdfonts.com/font-downloads)
 
 
-## Recommended Configurations
+---
+
+
+### Recommended Configurations
 - ### Alacritty
 - ### Tmux 
 - ### Fish Shell
