@@ -23,16 +23,18 @@ This is my custom starship.toml config file, designed to enhance the appearance 
 > OverView 
 ![](z/starship_alacritty.png)
 
+
 > visual flags with icons
 - `[save][->]` green 
 - `[re-do][<-]` red 
 ![](z/starship_visual_errors.png)
 
+
 > new icons | coloschme
 ![](z/starship_icons.png)
 
---- 
 
+--- 
 
 ## Quick Guide
 ### Step 0: Install `Homebrew`
