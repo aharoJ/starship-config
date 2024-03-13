@@ -21,11 +21,18 @@
 This is my custom starship.toml config file, designed to enhance the appearance of my command line prompt. I spent hours researching colors that are appealing to programmers and hand-picking the hacked icons to create a visually pleasing and functional prompt. Each module has been carefully configured to suit my needs, and I've added personal touches like custom symbols for success and error messages. I hope you find it useful!
 
 ![](z/starship-alacritty.png)
-visual flags, icons
-`[save][->]` green 
-`[re-do][<-]` red 
+> OverView 
 
-![](z/starship-visual-errors.png)
+
+![](z/starship_visual_errors.png)
+> visual flags with icons
+
+- `[save][->]` green 
+- `[re-do][<-]` red 
+
+
+![](z/starship-icons.png)
+> new icons | coloschme
 
 --- 
 
