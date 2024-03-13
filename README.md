@@ -27,8 +27,9 @@ visual flags, icons
 
 ![](z/starship-visual-errors.png)
 
+--- 
 
-# Quick Guide
+## Quick Guide
 ### Step 0: Install `Homebrew`
 
 
@@ -54,7 +55,7 @@ brew install starship
 ### Step 3: Configure your own shell
 [I use Fish Shell](https://fishshell.com)
 
-#### [configure your shell](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+- #### [configure your shell](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 
 ### Step 4: Install Hacked Nerd Font
 - ### [install hacked fonts](https://www.nerdfonts.com/font-downloads)
