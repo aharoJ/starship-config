@@ -68,17 +68,17 @@ brew install starship
 
 --- 
 
-## DEV DOCS 
-## Current Version
+### DEV DOCS 
+#### Current Version
 - please integrate **TMUX** to have the full experience
 - script clean up with `active` && `non-active` toml scripts
 
-### Version 0.0.1
+#### Version 0.0.1
 - Timer - Colors 
 - All Icons for All Languages
 
 
-### Version 0.0.2
+#### Version 0.0.2
 - A more sutle and simplistic version to pair with **TMUX**
 - Removed Timer
 - Remove most Icons 
