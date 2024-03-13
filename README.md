@@ -31,6 +31,8 @@ This is my custom starship.toml config file, designed to enhance the appearance 
 
 
 > new icons | coloschme
+
+
 ![](z/starship_icons.png)
 
 
