@@ -64,6 +64,8 @@ brew install starship
 ## Recommended Configurations
 - ### Alacritty
 - ### Tmux 
+- ### Fish Shell
+> Currently Updating my dot-files
 
 
 --- 
