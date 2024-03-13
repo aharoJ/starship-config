@@ -32,7 +32,7 @@ This is my custom starship.toml config file, designed to enhance the appearance 
 ![](z/starship_visual_errors.png)
 
 
-> new icons | coloschme
+> new icons | coloscheme
 
 ![](z/starship_icons.png)
 
