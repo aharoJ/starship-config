@@ -46,22 +46,26 @@ brew install starship
 ```
 
 ### Step 2: Copy File  
-Copy file into your ~/.config/starship/starship.toml:
+> Copy file into your ~/.config/starship/starship.toml:
 
 #### [my starship file](https://github.com/aharoJ/starship-config/blob/main/starship.toml)
+
 
 ### Step 3: Configure your own shell
 [I use Fish Shell](https://fishshell.com)
 
 #### [configure your shell](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 
+### Step 4: Install Hacked Nerd Font
+- ### [install hacked fonts](https://www.nerdfonts.com/font-downloads)
 
 
 ## Recommended Configurations
 - ### Alacritty
-- ### [install any type of hacked fonts](https://www.nerdfonts.com/font-downloads)
+- ### Tmux 
 
 
+--- 
 
 ## DEV DOCS 
 ## Current Version
@@ -80,6 +84,3 @@ Copy file into your ~/.config/starship/starship.toml:
 - Remove most Language Icon Support
     - If you want to keep do `disabled = false` 
 - Removed Battery
-
-
-
